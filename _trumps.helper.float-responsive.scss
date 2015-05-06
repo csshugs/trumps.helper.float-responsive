@@ -21,10 +21,9 @@ $inuit-enable-float--responsive--none:      false !default;
             @if ($inuit-enable-float--responsive--left == true) {
 
                 /**
-                 * Float responsive #{$alias}
+                 * Float left responsive #{$alias}.
                  */
-                .#{$alias}-float--left,
-                %#{$alias}-float--left{
+                .u-float-left-#{$alias} {
                     float: left !important;
                 }
 
@@ -33,10 +32,9 @@ $inuit-enable-float--responsive--none:      false !default;
             @if ($inuit-enable-float--responsive--right == true) {
 
                 /**
-                 * Float responsive #{$alias}
+                 * Float right responsive #{$alias}.
                  */
-                .#{$alias}-float--right,
-                %#{$alias}-float--right{
+                .u-float-right-#{$alias} {
                     float: right !important;
                 }
 
@@ -45,10 +43,9 @@ $inuit-enable-float--responsive--none:      false !default;
             @if ($inuit-enable-float--responsive--none == true) {
 
                 /**
-                 * Float responsive #{$alias}
+                 * Float none responsive #{$alias}.
                  */
-                .#{$alias}-float--none,
-                %#{$alias}-float--none{
+                .u-float-none-#{$alias} {
                     float: none !important;
                 }
 

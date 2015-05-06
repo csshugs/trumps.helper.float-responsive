@@ -1,3 +1,3 @@
-#responsive float
+#Responsive float
 
 Responsive float helper.
